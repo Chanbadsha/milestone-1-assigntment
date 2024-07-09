@@ -11,7 +11,7 @@ body{
 
 /* Repeated Css Here */
 .fixed_width{
-    width: 90%;
+    max-width: 90%;
     margin: auto;
 }
 .primary_btn{
@@ -79,3 +79,27 @@ header{
 
 /* Development Section */
 
+.development_section_contents{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(230, 236, 248,0.3);
+    gap: 48px;
+    
+   
+}
+.development_question_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 100px 0px 100px;
+}
+.development_question_title{
+font-size: 32px;
+font-weight: 900;
+color: #0D1321;
+}
+
+.development_answer_section{
+    padding: 0px 100px;
+}
