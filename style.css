@@ -14,6 +14,10 @@ body {
   width: 80%;
   margin: auto;
 }
+a{
+  text-decoration: none;
+  color: #0d1321;
+}
 .primary_btn {
   font-size: 20px;
   font-weight: 600;
@@ -33,6 +37,18 @@ body {
   border: none;
   font-size: 16px;
   letter-spacing: 2px;
+}
+.default_title{
+  font-size: 32px;
+  font-weight: 900;
+  color: #0d1321;
+  text-align: center;
+}
+.default_description{
+  padding: 0px 50px;
+  color: #0d1321;
+  line-height: 1.5;
+  text-align: center;
 }
 
 /* Header section css */
@@ -87,21 +103,9 @@ header {
 }
 .development_question_section {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   padding: 80px 100px 0px 100px;
   gap: 25px;
-}
-.development_question_description {
-  padding: 0px 50px;
-  color: #0d1321;
-  line-height: 1.5;
-}
-.development_question_title {
-  font-size: 32px;
-  font-weight: 900;
-  color: #0d1321;
 }
 
 .development_answer_section {
