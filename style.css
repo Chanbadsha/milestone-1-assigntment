@@ -14,3 +14,68 @@ body{
     width: 90%;
     margin: auto;
 }
+.primary_btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+    padding: 14px 24px;
+    background-color: #fff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.secondery_btn{
+    background-color: #0D1321;
+    color: #fff;
+    font-weight: 400;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+/* Header section css */
+header{
+
+}
+.main_navbar_section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.navbar_left h3{
+    font-size: 28px;
+    font-weight: 900;
+    color: #0D1321;
+}
+/* Hero Section Css */
+.hero_section{
+    background-image: url(./assets/Hero-bg.png);
+    height: 70vh;
+    margin-top: 30px;
+}
+.hero_section_contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    gap: 20px;
+}
+
+.hero_section_title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #0D1321;
+    text-align: center;
+}
+.hero_section_description{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+/* Development Section */
+
